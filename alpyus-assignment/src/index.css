@@ -73,7 +73,8 @@ body {
   justify-content: space-between;
 }
 .view-detail{
-  color: rgb(18, 117, 150);
+  color: rgb(47, 87, 197);
+  font-weight: 400;
 }
 
 
@@ -131,9 +132,7 @@ body {
   ;
   gap: .8em;
 }
-/* .cardComponent{
-  grid-area: card;
-} */
+
 .card{
   grid-area: card;
   text-align: center;
@@ -237,15 +236,18 @@ body {
 }
 .teammember-title{
   justify-content: space-between;
+
 }
 .memberName{
   font-size: 1em;
   margin: 0;
+  margin-top: .8em;
 }
 .member-job{
   font-size: .7em;
   color: grey;
   margin: 0;
+  margin-bottom: .8em;
 }
 
 .border{
@@ -279,7 +281,7 @@ body {
 .activities{
   margin: 1em;
   margin-left: 0;
-  background-image: linear-gradient(90deg , rgba(211, 211, 211, 0.267) ,white);
+  background-image: linear-gradient(90deg , rgba(211, 211, 211, 0.267) , rgba(211, 211, 211, 0.068));
   padding: .5em;
   border-radius: 10px;
 }
